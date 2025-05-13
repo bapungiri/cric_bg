@@ -6,5 +6,12 @@
 		{
 			"path": "../CricLens"
 		}
-	]
+	],
+	"settings": {
+		"python.envFile": "${workspaceFolder}/.env",
+		"python.analysis.extraPaths": [
+			"../CricLens"
+		],
+		"terminal.integrated.cwd": "${workspaceFolder}"
+	}
 }
